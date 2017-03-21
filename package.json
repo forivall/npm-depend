@@ -1,6 +1,6 @@
 {
   "name": "npm-depend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CLI tool to add dependencies to your package.json without installation",
   "license": "ISC",
   "author": "Emily Marigold Klassen <forivall@gmail.com>",
