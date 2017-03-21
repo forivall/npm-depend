@@ -1,16 +1,16 @@
 {
-  "name": "$NAME",
+  "name": "npm-depend",
   "version": "0.0.0",
-  "description": "$DESCRIPTION",
+  "description": "CLI tool to add dependencies to your package.json without installation",
   "license": "ISC",
   "author": "Emily Marigold Klassen <forivall@gmail.com>",
-  "homepage": "https://github.com/forivall/$NAME",
+  "homepage": "https://github.com/forivall/npm-depend",
   "repository": {
     "type": "git",
-    "url": "git@github.com:forivall/$NAME.git"
+    "url": "git@github.com:forivall/npm-depend.git"
   },
   "bugs": {
-    "url": "https://github.com/forivall/$NAME/issues"
+    "url": "https://github.com/forivall/npm-depend/issues"
   },
   "scripts": {
     "lint": "xo",
