@@ -19,7 +19,7 @@
   "scripts": {
     "lint": "xo",
     "lint-staged": "lint-staged",
-    "inspect": "jsinspect",
+    "inspect": "if-node-version \">=6\" jsinspect",
     "test": "ava",
     "posttest": "npm run lint && npm run inspect",
     "test-cov": "nyc ava",
@@ -44,6 +44,7 @@
     "ava": "^0.18.2",
     "coveralls": "^2.11.14",
     "eslint-config-mxo": "^0.4.0",
+    "if-node-version": "^1.1.1",
     "jsinspect": "^0.10.1",
     "nyc": "^10.1.2",
     "xo": "^0.18.0"
